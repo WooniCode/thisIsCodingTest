@@ -52,7 +52,7 @@ def solution():
         time += 1
         x,y = nx, ny
         if index < l and time == rotate[index][0]:
-            direction = turn(direction, rotate[index][0])
+            direction = turn(direction, rotate[index][1])
             index += 1
         if index == l:
             break
